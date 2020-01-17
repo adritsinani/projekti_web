@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hotel Vlora</title>
+
+	<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+<section id="nav-bar">
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+
+  <button class="navbar-toggler" type="button"
+   data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+   aria-expanded="false" aria-label="Toggle navigation">
+    
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#top">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Prenotime</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-us">Rreth Nesh</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#testimonials">Recesione</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">Kontakt</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+	
+</section>
+<!---------Banner secion------->
+<section id="banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p class="promo-title">HOTEL VLORA</p>
+					<p>Me nje eksperience disa vjecare Hotel Vlora ofron nje sherbim te kualifikuar, dhoma te rehateshme, nje guzhine tradicionale dhe te huaj.</p>
+					<a href="#"><img src="img/play.png" class="play-btn">
+					Per me shume shikoni videon  </a>
+				</div>
+				<div class="col-md-6 text-center">
+				<img src="img/hoteli.png" class="img-fluid">
+			</div>
+		</diV>
+	</div>
+	<img src="img/wave_1.png" class="bottom-img">
+</section>
+<!-----------seksioni i sherbimebe-------->
+<section id="services">
+	<div class="container text-center">
+	<h1 class="title"> PENOTIME </h1>
+		<div class="row text-center">
+			<div class="col-md-5 services">
+				<img src="img/services.png" class="service-img">
+				<h4>Prenoto tani</h4>
+				<p>Per vetem nje klik larg ju mund te prenontoni nje eksperience fantastike ne hotelin toni</p>
+			</div>
+			<form class="col-md-5 services" action="databaza.php" method="post"   style="border: 1px solid black">
+ 				<div>	
+ 					Emri:<br>
+  					<input type="text" name="emri" id="emri">
+  					<br>
+  				</div>
+  				<div>
+  					Mbiermri:<br>
+  					<input type="text" name="mbiemri" id="mbiemri">
+  					<br>
+  				</div>
+  				<div>
+  					Telefoni:<br>
+				    <input type="text" name="telefoni" id="telefoni">
+ 				    <br>
+ 			    </div>
+ 			     	 
+					<br>
+ 					 Data qe doni te prenotoni:<br>
+					  <input type="date" name="data_prenotimit" id="data_prenotimit"><br>	 
+				Deri :<br>
+  				<input type="date" name="deri_kur" id="deri_kur"><br><br>
+			   <input type="submit" class="btn btn-primary" value="Vazhdo"><br>
+			</form>
+
+	</div>
+</section>
+<!--------rreth nesh------->
+<section id="about-us">
+	<div class="container">
+		<h1 class="title text-center"> PERSE TE ZGJEDHIM HOTEL VLORA?</h1>
+	<div class="row">
+	<div class="col-md-6 about-us">
+		<p class="about-title">Perse ne jemi ndryshe</p>
+			<ul>
+					<li>Besojme ne te berrit biznes</li>
+					<li>Besojme ne te berrit biznes</li>
+					<li>Besojme ne te berrit biznes</li>
+					<li>Besojme ne te berrit biznes</li>
+					<li>Besojme ne te berrit biznes</li>
+					<li>Besojme ne te berrit biznes</li>
+					<li>Besojme ne te berrit biznes</li>
+			</ul>
+	</div>
+	<div class="col-md-6">
+		<img src="img/ndryshe.png" class="img-fluid">
+	</div>
+	</div>
+	</div>
+</section>
+<section id="testimonials">
+	<div class="container">
+		<h1 class="title text-center"> CFARE KLIENTET TANE THONE </h1>
+			<div class="row">
+				<div class="col-md-5 text-center testimonials">
+					<p>Hotel shume i mire me shume dhe nje sherbim fantastik </p>
+						<img src="img/user1.jpg">
+						<p class="user-details"><b> Mirko Hysaj</b> <br> Bashke themeluesi i M&H </p> 
+				</div>
+				<div class="col-md-5 text-center testimonials">
+					<p>Gatime teper te shishme te cilat duhet te jene shembull per tere hotelet turistike</p>
+						<img src="img/user2.jpg">
+						<p class="user-details"><b> Suela Kalo</b> <br> Kuzhiniere </p> 
+				</div>
+
+			</div>
+	</div>
+</section>
+
+<!------- Social Media Section -------->
+<section id="social-media">
+<div class="container text-center">
+	<p> NA KONTAKTONI NE RRJETET SOCIALE </p>
+	<div class="social-icons">
+		<a href="#"><img src="img/facebook.png"></a>
+		<a href="#"><img src="img/instagram.png"></a>
+		<a href="#"><img src="img/twitter.png"></a>
+		<a href="#"><img src="img/social1.png"></a>
+		<a href="#"><img src="img/behance.png"></a>
+	</div>
+</div>
+</section>
+<!----------footer section------>
+<section id="footer">
+<img src="img/wave_2.png" class="footer-img">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 footer-box">
+				<img src="img/Background.png">
+					<p>Me nje eksperience disa vjecare Hotel Vlora ofron nje sherbim te kualifikuar, dhoma te rehateshme, nje guzhine tradicionale dhe te huaj.</p>
+			</div>
+			<div class="col-md-4 footer-box">
+				<p><b>NA KONTAKTONI</b></p>
+				<p><i class="fa fa-map-marker"></i>Rruga:Vlore-Skele Nr.15, Vlore, Albania</p>
+				<p><i class="fa fa-phone"></i> +355 69 12345678</p>
+				<p><i class="fa fa-envelope-o"></i>hotelvlore@gamil.com</p>
+			</div>
+			<div class="col-md-4 footer-box">
+				<p><b>REGJISTROHU NE POSTEN TONE</b></p>
+				<input type="email" class="form-control" placeholder="Email-i juaj">
+				<button type="button" class="btn btn-primary">Rregjistrohu</button>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">Created by Adrit Sinani</p>
+	</div>
+</section>
+<!-------smoth scroll----------->
+<script type="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+</html>
